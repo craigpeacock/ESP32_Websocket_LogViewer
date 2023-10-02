@@ -1,5 +1,5 @@
 # ESP32 Websocket based Real Time Log Viewer
-This example redirects the esp32 console in real-time to webpage using websockets. Developed using esp-idf.
+This example redirects the esp32 console in real-time to webpage using websockets. Developed using [esp-idf](https://www.espressif.com/en/products/sdks/esp-idf).
 
 This application dynamically redirects the esp console to the web browser when the user presses the start button and stops the redirection when pressing stop. Redirection is performed using the 
 [esp_log_set_vprintf](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/system/log.html#_CPPv419esp_log_set_vprintf14vprintf_like_t) function. 
