@@ -8,7 +8,7 @@ The esp-idf log framework highlights the different log levels using colours spec
 
 Javascript running on the client side replaces greater than and less than symbols with the correct HTML codes to provide HTML compliance. When the end user presses the save button, the various elements making up the log file is iterated and saved to file. This provides a real-time interface without any flash wear that could occur if files are written to SPIFFS and retrieved.
 
-When the log panel is full, a scroll bar will appear and the last line shown similar to a ``tail -f``.
+When the log panel becomes full, a scroll bar will appear and the last lines are shown similar to a ``tail -f``.
 
 <P ALIGN="CENTER"><IMG SRC="https://raw.githubusercontent.com/craigpeacock/ESP32_Websocket_LogViewer/master/img/screenshot.png" width=80% height=80%></P> 
  
