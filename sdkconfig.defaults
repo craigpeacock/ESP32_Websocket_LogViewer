@@ -1,6 +1,4 @@
-
-// Enable IPV6 stateless address autoconfiguration (SLAAC)
+# Enable IPV6 stateless address autoconfiguration (SLAAC)
 CONFIG_LWIP_IPV6_AUTOCONFIG=y
-
-// Enable websocket support in httpd server
+# Enable websocket support in httpd server
 CONFIG_HTTPD_WS_SUPPORT=y

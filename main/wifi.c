@@ -34,8 +34,6 @@ static const char *TAG = "WIFI";
 
 static int s_retry_num = 0;
 
-static esp_ip6_addr_t s_ipv6_addr;
-
 /* Types of ipv6 addresses to be displayed on ipv6 events */
 static const char *s_ipv6_addr_types[] = {
 	"UNKNOWN",
